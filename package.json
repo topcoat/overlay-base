@@ -1,0 +1,41 @@
+{
+  "name": "overlay",
+  "version": "0.0.0",
+  "description": "Topcoat overlay base",
+  "main": "topcoat-overlay.css",
+  "topcoat": {
+    "controls": {
+      "topcoat/utils": ""
+    }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/topcoat/overlay-base.git"
+  },
+  "keywords": [
+    "overlay",
+    "css",
+    "topcoat",
+    "adobe"
+  ],
+  "author": "@ndreio Andrei Oprea",
+  "license": "Apache",
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.3.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt": "~0.4.1",
+    "grunt-contrib-stylus": "~0.5.0",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-zip": "~0.7.0",
+    "grunt-contrib-cssmin": "~0.6.0",
+    "grunt-topcoat": "*",
+    "grunt-contrib-jade": "~0.5.0",
+    "debug": "~0.7.2"
+  }
+}
