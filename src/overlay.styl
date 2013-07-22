@@ -16,19 +16,7 @@
 *
 */
 
-/*global require, describe, it*/
+@import overlay-mixin
 
-'use strict';
-
-var grunt = require('grunt'),
-    assert = require('assert');
-
-describe('overlay-base', function() {
-
-    it('should create expected css file', function() {
-        var actual = grunt.file.read('css/overlay.css');
-        var expected = grunt.file.read('test/expected/overlay.css');
-        assert.equal(actual, expected, 'should generate correct css');
-    });
-
-});
+.overlay
+	overlay-base()
