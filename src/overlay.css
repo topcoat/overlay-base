@@ -16,10 +16,11 @@
 *
 */
 
-@import utils
+@import "topcoat-utils";
 
-.overlay
-	reset-base()
-	reset-cursor()
-	reset-box-model()
-	overflow hidden
+%overlay {
+  extend: %reset-base;
+  extend: %reset-cursor;
+  extend: %reset-box-model;
+  overflow: hidden;
+}
