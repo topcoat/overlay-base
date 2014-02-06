@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Topcoat overlay base. Reset style for overlay.",
   "main": "index.html",
+  "style": "src/overlay.css",
   "directories": {
     "test": "test",
     "lib": "src",
@@ -25,6 +26,10 @@
     "adobe"
   ],
   "author": "@ndreio Andrei Oprea",
+  "contributors": [
+    "Kristofer Joseph (http://twitter.com/dam)",
+    "Garth Braithwaite (http://garthdb.com/)"
+  ],
   "license": "Apache",
   "devDependencies": {
     "grunt": "~0.4.1",
@@ -33,8 +38,8 @@
     "grunt-contrib-jade": "~0.7.0",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-simple-mocha": "~0.4.0",
-    "grunt-rework": "0.0.5",
-    "grunt-topcoat": "~0.1.0"
+    "grunt-rework": "0.0.6",
+    "grunt-topcoat": "~0.1.3"
   },
   "dependencies": {
     "topcoat-utils": "~0.3.0"
