@@ -1,6 +1,6 @@
 {
   "name": "topcoat-overlay-base",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Topcoat overlay base. Reset style for overlay.",
   "main": "index.html",
   "style": "src/overlay.css",
